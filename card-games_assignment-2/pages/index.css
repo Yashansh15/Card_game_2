@@ -1,0 +1,357 @@
+#button{
+    background-color:transparent;
+    cursor: pointer;
+    border: none;
+}
+body{
+    background-image: url("img/p.png");
+    max-width: 100%;
+    height: 100%;
+    background-size: contain;
+  }
+@media screen and (max-width: 280px) {
+    img {
+        width: 60px;
+        height: 65px;
+    }
+
+    .cl {
+        display: flex;
+        margin-left: 5px;
+        margin-top: 2px;
+        margin-bottom: 6px;
+        padding: 0%;
+    }
+
+    .bi {
+        flex: 50%;
+        width: 8px;
+        height: 8px;
+        margin: 0%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        grid-template-rows: auto;
+        background-color: transparent; 
+        padding: 10%;
+    }
+
+    .grid-container1 {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto;
+        background-color: transparent;
+        padding: 0%;
+    }
+
+    .grid-item1 {
+
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding-top: 0%;
+        text-align: center;
+        width: 60px;
+        height: 65px;
+    }
+
+    .f {
+
+        background-color:transparent;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        padding: 0%
+    }
+
+    .ff {
+        width: 60px;
+        height: 60px;
+    }
+
+    #S2 {
+        margin-left:36%;
+        float: left;
+        width: 70px;
+        height: 35px;
+        vertical-align:middle;
+        cursor: pointer;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+        color:rgb(0, 0, 0);
+        font-weight: bolder;
+        font-family: 'Trebuchet MS';
+        font-size:small;
+        border-color: rgba(0, 0, 0, 0.553);
+        background-color: rgba(213, 204, 118, 0.9);
+    }
+    #S2:hover {
+        background-color:#d8b609f2;
+        color: white;
+      }
+      #w
+      {
+        display: none;
+      }
+}
+
+@media screen and (min-width: 280px) {
+    img {
+        width: 60px;
+        height: 65px;
+    }
+
+    .cl {
+        display: flex;
+        margin-left: 5px;
+        margin-top: 2px;
+        margin-bottom: 6px;
+        padding: 0%;
+    }
+
+    .bi {
+        flex: 50%;
+        width: 13px;
+        height: 13px;
+        margin: 0%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        grid-template-rows: auto;
+        background-color: transparent; 
+        padding: 5%;
+    }
+
+    .grid-container1 {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: auto;
+        background-color: transparent;
+        padding: 0%;
+    }
+
+    .grid-item1 {
+
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding-top: 0%;
+        text-align: center;
+        width: 60px;
+        height: 65px;
+    }
+
+    .f {
+
+        background-color:transparent;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        padding: 0%
+    }
+
+    .ff {
+        width: 60px;
+        height: 60px;
+    }
+
+    #S2 {
+        margin-left:36%;
+        float: left;
+        width: 90px;
+        height: 45px;
+        vertical-align:middle;
+        cursor: pointer;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+        color:rgb(0, 0, 0);
+        font-weight: bolder;
+        font-family: 'Trebuchet MS';
+        font-size:medium;
+        border-color: rgba(0, 0, 0, 0.553);
+        background-color: rgba(213, 204, 118, 0.9);
+    }
+    #S2:hover {
+        background-color:#d8b609f2;
+        color: white;
+      }
+      #w
+      {
+        display: none;
+      }
+}
+
+@media screen and (min-width: 540px) {
+   
+    img {
+        width: 120px;
+        height: 130px;
+    }
+
+    .cl {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 12px;
+        padding: 0%;
+    }
+
+    .bi {
+        flex: 50%;
+        width: 30px;
+        height: 30px;
+        margin: 0%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        background-color: transparent; 
+        padding: 5%;
+    }
+
+    .grid-container1 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        background-color: transparent;
+        padding: 0%;
+    }
+
+    .grid-item1 {
+
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding-top: 0%;
+        text-align: center;
+        width: 120px;
+        height: 130px;
+    }
+
+    .f {
+
+        background-color:transparent;
+        text-align: center;
+        width: 120px;
+        height: 120px;
+        padding: 0%
+    }
+
+    .ff {
+        width: 120px;
+        height: 120px;
+    }
+    #S2 {
+        margin-left:36%;
+        float: left;
+        width: 180px;
+        height: 63px;
+        vertical-align:middle;
+        cursor: pointer;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        color:rgb(0, 0, 0);
+        font-weight: bolder;
+        font-family: 'Trebuchet MS';
+        font-size:larger;
+        border-color: rgba(0, 0, 0, 0.553);
+        background-color: rgba(213, 204, 118, 0.9);
+    }
+    #S2:hover {
+        background-color:#d8b609f2;
+        color: white;
+      }
+      #w
+      {
+        font-size: small;
+        color: wheat;
+        display:inline;
+      }
+}
+
+@media screen and (min-width: 1080px) {
+    img {
+        width: 230px;
+        height: 250px;
+    }
+
+    .cl {
+        
+        display: flex;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        padding: 0%;
+    }
+
+    .bi {
+        flex: 50%;
+        width: 50px;
+        height: 50px;
+        margin: 0%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+         background-color: transparent; 
+        padding: 50px;
+
+    }
+
+    .grid-container1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+         background-color: rgba(0, 0, 0, 0);
+        padding: 0%;
+    }
+
+    .grid-item1 {
+
+        /* background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8); */
+        padding-top: 0%;
+        text-align: center;
+        width: 230px;
+        height: 250px;
+    }
+
+    .f {
+        /* background-color:#2196F3; */
+        text-align: center;
+        align-items: center;
+        margin-left: 10px;
+        width: 200px;
+        height: 200px;
+        padding: 0%
+    }
+
+    .ff {
+        width: 200px;
+        height: 200px;
+    }
+    #S2 {
+        margin-left:36%;
+        float: left;
+        width: 280px;
+        height: 90px;
+        vertical-align:middle;
+        cursor: pointer;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        color:rgb(0, 0, 0);
+        font-weight: bolder;
+        font-family: 'Trebuchet MS';
+        font-size:larger;
+        border-color: rgba(0, 0, 0, 0.553);
+        background-color: rgba(213, 204, 118, 0.9);
+    }
+    #S2:hover {
+        background-color:#d8b609f2;
+        color: white;
+      }     
+}
